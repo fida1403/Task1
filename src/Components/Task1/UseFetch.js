@@ -4,7 +4,7 @@ import Table from './Table'
 
 const UseFetch = () => {
 
-    const API_URL = "https://jsonplaceholer.typicode.com/posts"
+    const API_URL = "https://jsonplaceholder.typicode.com/posts"
     const [isLoading, setIsloading] = useState(false)
     const [error, setError] = useState()
     const [posts, setPosts] = useState()
